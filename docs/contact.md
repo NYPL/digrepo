@@ -5,7 +5,7 @@ permalink: /contact/
 nav_order: 8
 ---
 
-Get in touch with the Digital Preservation Program regarding our work at NYPL and suggestions for improvement on work published here.
+Get in touch with the Digital Repository program regarding our work at NYPL and suggestions for improvement on work published here.
 
 <h2>By Email</h2>
 <a href="mailto:digpres+contact@nypl.org">digpres+contact@nypl.org</a>
