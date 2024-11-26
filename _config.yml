@@ -1,14 +1,10 @@
-# Welcome to Jekyll!
-
 # Site settings
-title: NYPL Digital Preservation
+title: NYPL Digital Repository
 email: digpres@nypl.org
 description: >
-  Documentation for the Digital Preservation program at the New York Public Library.
+  Documentation for the Digital Repository program at the New York Public Library.
 url: "https://nypl.github.io"
-baseurl: "/digpres" # the subpath of your site, e.g. /blog
-
-twitter_username: "nypl_digpres"
+baseurl: "/digrepo" # the subpath of your site, e.g. /blog
 
 # Build settings
 
@@ -16,8 +12,6 @@ remote_theme: just-the-docs/just-the-docs
 search_enabled: true
 search_tokenizer_separator: /[\s/]+/
 heading_anchors: true
-
-permalink: /posts/:title
 
 ga_tracking: G-VHB1ZND5F4
 ga_tracking_anonymize_ip: true
