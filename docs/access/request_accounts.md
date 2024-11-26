@@ -38,15 +38,15 @@ parent: Access
 
 Preservica can be accessed through different mechanisms and by different entities. Therefore, there exists a few account types
 
-### Preservica Universal Access
+### Preservica Access
 
-Preservica Universal Access (UA) is the default user interface for NYPL staff to view content within Preservica.
-It is accessed through [https://nyplaccess.preservica.com](https://nyplaccess.preservica.com).
-Viewing permissions are based on the user's Preservica UI accounts.
+The Preservica Access interface is the default user interface for NYPL staff to view content within Preservica.
+It is accessed through [https://nypl.access.preservica.com](https://nypl.access.preservica.com).
+Viewing permissions are based on the user's Preservica accounts.
 
-### Preservica User Interface
+### Preservica Staff Interface
 
-The Preservica User Interface (UI) is the primary user interface for NYPL staff to manage content within Preservica. It is accessed through [https://nypl.preservica.com/](https://nypl.preservica.com/). The UI allows users to perform actions that are configured with their individual roles, e.g. view content and metadata, ingest content, update metadata, etc.
+The Preservica Staff interface is the primary user interface for NYPL staff to manage content within Preservica. There are two versions currently availabe: Classic [https://nypl.preservica.com/](https://nypl.preservica.com/) and Next Generation (NGI)[https://nypl.preservica.com/starter](https://nypl.preservica.com/starter). The UI allows users to perform actions that are configured with their individual roles, e.g. view content and metadata, ingest content, update metadata, etc. Some functions may only be available in Classic, but will eventually be ported to NGI.
 
 ### Preservica API Access
 
@@ -54,7 +54,7 @@ The Preservica API (Application Programming Interface) is the primary interface 
 
 ### Preservica Test Instance
 
-The Preservica Test Instance is used to test new workflows and integrations before they are added to the production instance. Access to this instance is restricted to staff actively involved in Preservica development and requires a dedicated user account from IT.
+The Preservica Test Instance is used to test new workflows and integrations before they are added to the production instance. Access to this instance is restricted to staff actively involved in Preservica development.
 
 ## Troubleshooting
 
