@@ -16,7 +16,7 @@ All VMs are managed by the Information Technology Group (ITG) and should be conf
 Include the following:
     * required processor cores, 4-16
     * required RAM, 16+ GB
-    * required working storage, 4+ TB if possible
+    * required working storage, 2+ TB if possible
     * required mounts of other storage clusters, such as Isilon or workgroup storage
     * `sudo` privileges for your account
     * a list of users to create
@@ -45,7 +45,6 @@ Include the following:
    * `-p <pw>` set a temporary password of your choosing
    * `-m` create a home directory
    * `-s /bin/bash` set shell
-   * `-G ingest` set secondary group to ingest
 2. Send the login information to the user.
 Ask them to test the connection and also change the password.
 
@@ -85,12 +84,7 @@ python3 ~/prsv-tools/path/to/script.py
 
 ### Add new mount
 
-All storage mounts should be made into one of the following directories:
-
-* `/source/` for read-only mounts to data source locations
-* `/data/` for read/write mounts to working storage for the script
-* `/ifs/preservica/development` for mounts to the upload/storage/download directories for the Preservica test instance
-* `/ifs/preservica/production ` for mounts to the upload/storage/download directories for the Preservica production instance
+Copy the `fstab` from an existing server and modify as needed. Most likely, only the ingest source mounts will need editing.
 
 1. Create a directory for mounting and change its ownership to the ingest group.
 
