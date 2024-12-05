@@ -4,7 +4,7 @@ email: digpres@nypl.org
 description: >
   Documentation for the Digital Repository program at the New York Public Library.
 url: "https://nypl.github.io"
-baseurl: "/digrepo/docs" # the subpath of your site, e.g. /blog
+baseurl: "/digrepo" # the subpath of your site, e.g. /blog
 
 # Build settings
 
